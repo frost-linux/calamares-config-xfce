@@ -62,16 +62,16 @@ windowSize: 1100px,650px
 # are set to "true" (they can also be overridden).
 strings:
     productName:         "@{NAME}"
-    shortProductName:    HefftorLinux
+    shortProductName:    ArcoLinux
     version:             2.0
     shortVersion:        2.0
-    versionedName:       HefftorLinux
-    shortVersionedName:  HefftorLinux
-    bootloaderEntryName: HefftorLinux
-#    productUrl:          https://HefftorLinux.info/
-#    supportUrl:          https://HefftorLinuxforum.com/
-#    knownIssuesUrl:      https://HefftorLinux.info/
-#    releaseNotesUrl:     https://HefftorLinux.info/HefftorLinux-editions/
+    versionedName:       ArcoLinux
+    shortVersionedName:  ArcoLinux
+    bootloaderEntryName: ArcoLinux
+#    productUrl:          https://ArcoLinux.info/
+#    supportUrl:          https://ArcoLinuxforum.com/
+#    knownIssuesUrl:      https://ArcoLinux.info/
+#    releaseNotesUrl:     https://ArcoLinux.info/ArcoLinux-editions/
 
 # These images are loaded from the branding module directory.
 #
