@@ -1,2 +1,2 @@
-# Hefftor Calamares configuration
+# Frost Linux Calamares configuration
 
