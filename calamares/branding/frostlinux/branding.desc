@@ -70,7 +70,7 @@ strings:
     bootloaderEntryName: FrostLinux
     productUrl:          https://frostlinux.xyz/
 #    supportUrl:          https://frostlinux.xyz/
-#    knownIssuesUrl:      https://frostlinux.xyz/
+    knownIssuesUrl:      https://github.com/frost-linux
 #    releaseNotesUrl:     https://frostlinux.xyz/
 
 # These images are loaded from the branding module directory.

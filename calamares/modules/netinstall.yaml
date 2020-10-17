@@ -1,19 +1,19 @@
-- name: "Linux kernel without any nvidia"
-  description: "Installs only the latest linux kernel (not the one from iso)"
+- name: "Linux kernel without Nvidia Drivers"
+  description: "Installs only the latest Linux kernel."
   critical: false
   hidden: false
   selected: false
   packages:
     - linux
-- name: "Linux-lts kernel without any nvidia"
-  description: "Installs only the linux-lts kernel"
+- name: "Linux-LTS kernel without Nvidia Drivers"
+  description: "Installs only the Linux-LTS kernel."
   critical: false
   hidden: false
   selected: false
   packages:
     - linux-lts
-- name: "Nvidia with linux kernel"
-  description: "Installs nvidia and linux kernel - check Arch wiki nvidia"
+- name: "Linux kernel with Nvidia Drivers"
+  description: "Install Nvidia drivers and the Linux kernel."
   critical: false
   hidden: false
   selected: false
@@ -22,8 +22,8 @@
     - nvidia
     - nvidia-settings
     - nvidia-utils
-- name: "Nvidia-lts with linux-lts kernel"
-  description: "Installs nvidia-lts and linux-lts kernel - check Arch wiki nvidia"
+- name: "Linux-LTS kernel with Nvidia Drivers (LTS)"
+  description: "Install Nvidia-LTS drivers and Linux-LTS kernel."
   critical: false
   hidden: false
   selected: false
@@ -33,7 +33,7 @@
     - nvidia-settings
     - nvidia-utils
 - name: "Nvidia-390xx with linux kernel"
-  description: "Installs nvidia-390xx and linux kernel - check Arch wiki nvidia"
+  description: "Install Nvidia-390xx drivers and Linux kernel."
   critical: false
   hidden: false
   selected: false
@@ -42,8 +42,8 @@
     - nvidia-390xx
     - nvidia-390xx-settings
     - nvidia-390xx-utils
-- name: "Nvidia-390xx with linux-lts kernel"
-  description: "Installs nvidia-390xx-lts and linux-lts kernel - check Arch wiki nvidia"
+- name: "Nvidia-390xx with Linux-LTS kernel"
+  description: "Install Nvidia-390xx LTS drivers and Linux-LTS kernel."
   critical: false
   hidden: false
   selected: false
@@ -53,35 +53,35 @@
     - nvidia-390xx-settings
     - nvidia-390xx-utils
 - name: "Intel-ucode"
-  description: "Installs intel-ucode - see Arch wiki microcode"
+  description: "Install Intel-ucode."
   critical: false
   hidden: false
   selected: false
   packages:
     - intel-ucode
 - name: "Amd-ucode"
-  description: "Installs amd-ucode - see Arch wiki microcode"
+  description: "Install AMD-ucode."
   critical: false
   hidden: false
   selected: false
   packages:
     - amd-ucode
 - name: "Libre Office Still"
-  description: "Installs libre office still - stable branch - conflicts with fresh"
+  description: "Install Libre Office stable branch."
   critical: false
   hidden: false
   selected: false
   packages:
     - libreoffice-still
 - name: "Libre Office Fresh"
-  description: "Installs libre office fresh - feature branch - conflicts with still"
+  description: "Install Libre Office feature branch."
   critical: false
   hidden: false
   selected: false
   packages:
     - libreoffice-fresh
 - name: "WPS Office"
-  description: "Installs wps office"
+  description: "Install WPS Office suite."
   critical: false
   hidden: false
   selected: false
